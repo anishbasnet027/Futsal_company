@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./App.css";
 import { Navbar, Brand, Cta } from "./components";
 import {
   Footer,
