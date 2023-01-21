@@ -1,25 +1,22 @@
 import React from "react";
 import "./header.css";
 import people from "../../assets/google.png";
-import ai from "../../assets/Illustration.png";
+import ai from "../../assets/futbal.jpg";
 
 const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">
-          Let&apos;s Build Something amazing with GPT-3 OpenAI
-        </h1>
+        <h1 className="gradient__text">WELCOME, to FUTSAL WORLD</h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Your premier destination for all things futsal! We are dedicated to
+          providing a fun, safe, and competitive environment for players of all
+          skill levels to enjoy the fast-paced and exciting game of futsal.
         </p>
 
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          {/* <input type="email" placeholder="Your Email Address" />
+          <button type="button">Get Started</button> */}
         </div>
 
         {/* <div className="gpt3__header-content__people">

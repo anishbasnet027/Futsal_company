@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "./navbar.css";
-import logo from "../../assets/GPT-3.svg";
+import logo from "../../assets/logoF.png";
+// import logo from "../../assets/GPT-3.svg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 //BEM -> Block element modifier
@@ -14,18 +15,18 @@ const Menu = () => {
       </p>
 
       <p>
-        <a href="#wgpt3">What is GPT?</a>
+        <a href="#wgpt3">About Us</a>
       </p>
 
       <p>
-        <a href="#possibility">Open AI</a>
+        <a href="#possibility">Booking</a>
       </p>
 
       <p>
-        <a href="#features">Case Studies</a>
+        <a href="#features">Prices</a>
       </p>
       <p>
-        <a href="#blogs">Libary</a>
+        <a href="#blogs">Gallery</a>
       </p>
     </>
   );
